@@ -381,8 +381,11 @@ a:hover{
         text-align:left;
         position: relative;
     }
-    #navfoot div ul li{
+    #navfoot{
+        margin-top: 180px;
         position: relative;
+        margin-left: 5em;
+        padding-bottom: 4em;
     }
     .searchdiv{
         float: left;
