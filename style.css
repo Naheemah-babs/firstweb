@@ -345,7 +345,7 @@ a:hover{
 }
 @media only screen and (max-width:600px) {
     body, body *{
-      width: 25%;
+      width: 100%;
       display: flex;
       margin: 0;
       flex-wrap: wrap;
@@ -357,10 +357,10 @@ a:hover{
         width: 100%;
     }
     nav{
-        float: right;
+        margin-right: 0;
     }
     #firstid{
-        display: flex;
+        display: block;
         
     }
     #firstid img{
@@ -370,6 +370,6 @@ a:hover{
     #abtid{
         display: block;
         position: relative;
-        margin-top: 78rem;
+        margin-top: 2rem;
     }
   }
