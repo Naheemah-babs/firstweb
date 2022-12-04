@@ -349,6 +349,8 @@ a:hover{
       display: block;
       margin: 0;
       position: relative;
+      display: flex;
+    flex-wrap: wrap;
     }
     #prjbtn{
         margin-left: 2em;
@@ -357,8 +359,9 @@ a:hover{
         margin-left: 2em;
     }
     img{
-        width: 25%;
-        display: block;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
     }
     div{
         width: 100%;
