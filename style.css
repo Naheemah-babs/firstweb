@@ -346,30 +346,18 @@ a:hover{
 @media only screen and (max-width:600px) {
     body, body *{
       width: 100%;
-      display: flex;
+      display: block;
       margin: 0;
-      flex-wrap: wrap;
     }
     img{
         width: 100%;
+        display: block;
     }
     div{
         width: 100%;
     }
     nav{
         margin-right: 0;
-    }
-    #firstid{
-        display: block;
-        
-    }
-    #firstid img{
-        display: inline;
         position: relative;
     }
-    #abtid{
-        display: block;
-        position: relative;
-        margin-top: 2rem;
-    }
-  }
+}
