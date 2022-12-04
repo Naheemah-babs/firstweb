@@ -345,7 +345,7 @@ a:hover{
 }
 @media screen and (max-width:600px) {
     body, body *{
-      width: 50%;
+      width: 100%;
       display: block;
       margin: 0;
       position: relative;
@@ -379,6 +379,10 @@ a:hover{
         margin-top: 5px;
         padding-left: 5px;
         text-align:left;
+        position: relative;
+    }
+    #navfoot div ul li{
+        position: relative;
     }
     .searchdiv{
         float: left;
