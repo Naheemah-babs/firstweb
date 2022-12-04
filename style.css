@@ -349,7 +349,12 @@ a:hover{
       display: block;
       margin: 0;
       position: relative;
-      overflow: hidden;
+    }
+    #prjbtn{
+        margin-left: 2em;
+    }
+    #webdesign{
+        margin-left: 2em;
     }
     img{
         width: 100%;
@@ -374,5 +379,8 @@ a:hover{
     }
     .searchdiv{
         float: left;
+    }
+    #firstid img{
+        margin-bottom: 1em;
     }
 }
