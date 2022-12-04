@@ -343,9 +343,9 @@ a:hover{
 #abtid{
     position: relative;
 }
-@media only screen and (min-width:600px) {
+@media screen and (max-width:600px) {
     body, body *{
-      width: 100%;
+      width: 50%;
       display: block;
       margin: 0;
       position: relative;
